@@ -1,8 +1,7 @@
 def prime?(integer)
-  if  Prime.prime?(integer)
+  if   Prime.prime?(integer) == true
     true
   else
-    false 
-
+    false
   end
 end
